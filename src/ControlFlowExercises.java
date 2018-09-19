@@ -30,13 +30,28 @@ public class ControlFlowExercises {
 //        }
 //
 //--------------------------------------------
-        int i=5;
-        while(i<=15){
-            System.out.println("i is"+i);
-            i++;
+//        int i=5;
+//        while(i<=15){
+//            System.out.println("i is"+i);
+//            i++;
+//        }
+//
+//        int i = 5;
+//        while(i<=15){
+//            System.out.println(i+" is the current number");
+//            i++;
+//        }
+
+
+
+
+//        for (long k=2;k<90000000000l)
+        for (int i=1;i<=100;i++){
+            if (i%15==0) System.out.println("FizzBuzz");
+            else if (i%3==0) System.out.println("Fizz");
+            else if (i%5==0) System.out.println("Buzz");
+            else System.out.println(i);
         }
-
-
 
     }}
 
