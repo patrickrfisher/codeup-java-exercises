@@ -21,11 +21,13 @@ public class pushups {
 //        System.out.println(charVar);
 //        System.out.println(className);
 //System.out.format("hello %s!",className);
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("What is your first name?");
-       String firstName = scanner.next();
-        System.out.println("What is your last name?");
-        String lastName = scanner.next();
-        System.out.format("You entered: %s %s,",firstName,lastName);
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("What is your first name?");
+//       String firstName = scanner.next();
+//        System.out.println("What is your last name?");
+//        String lastName = scanner.next();
+//        System.out.format("You entered: %s %s,",firstName,lastName);
+
+
     }
 }

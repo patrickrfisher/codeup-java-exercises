@@ -63,22 +63,23 @@ public class ControlFlowExercises {
 //        System.out.println("number | squared | cubed");
 //        System.out.println("-------| ----- | ----- |");
 //        System.out.format("%10s | %10s | %10s",userInt,userInt*userInt,userInt*userInt*userInt);
-        boolean confirm =true;
-while (confirm) {
-    System.out.println("Enter the grade");
-    int grade = sc.nextInt();
-    char letterGrade = '*';
-    if (grade >= 0 && grade <= 100) {
-        if (grade >= 88) letterGrade = 'A';
-        else if (grade >= 80) letterGrade = 'B';
-        else if (grade >= 67) letterGrade = 'C';
-        else if (grade >= 60) letterGrade = 'D';
-    } else letterGrade = 'F';
-    System.out.println(letterGrade);
-    String answer=sc.nextLine();
-    if(!answer.equalsIgnoreCase(anotherString:"y"))
-        confirm=false;
-} }}
+//        boolean confirm =true;
+//while (confirm) {
+//    System.out.println("Enter the grade");
+//    int grade = sc.nextInt();
+//    char letterGrade = '*';
+//    if (grade >= 0 && grade <= 100) {
+//        if (grade >= 88) letterGrade = 'A';
+//        else if (grade >= 80) letterGrade = 'B';
+//        else if (grade >= 67) letterGrade = 'C';
+//        else if (grade >= 60) letterGrade = 'D';
+//    } else letterGrade = 'F';
+//    System.out.println(letterGrade);
+//    String answer=sc.nextLine();
+//    if(!answer.equalsIgnoreCase(anotherString:"y"))
+//        confirm=false;
+
+    }}
 
 
 
