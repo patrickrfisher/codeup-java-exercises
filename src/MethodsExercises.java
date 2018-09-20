@@ -68,6 +68,9 @@ public class MethodsExercises {
 //        A factorial is a number multiplied by each of the numbers before it.
 //        Factorials are denoted by the exclamation point (n!).
 
+
+
+
     public static void doFactorial(){
         Scanner sc=new Scanner(System.in);
             boolean userCont =true;
