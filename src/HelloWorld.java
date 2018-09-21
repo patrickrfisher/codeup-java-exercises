@@ -8,8 +8,12 @@ public class HelloWorld {
 //        String myString = "Patrick Fisher";
 //        System.out.println(myString);
 //
-//        float myNumber = 3.14f;
-//        System.out.println(myNumber);
+        float myNumber = 3.12f;
+        System.out.println(myNumber);
+
+        int theNumber= 1;
+        System.out.println(theNumber);
+
 
 //        int x = 5;
 //        System.out.println(++x);
@@ -27,14 +31,15 @@ public class HelloWorld {
 //
 //        x /= y;
 //        y -= x;
-        byte num =127;
-        System.out.println(num);
-        ++num;
-        System.out.println(num);
-
-
-        int myFavNum2=12;
-        System.out.print(myFavNum2);
+//        byte num =126;
+//        System.out.println(num.MAX_VALUE);
+////        System.out.println(num);
+////        ++num;
+////        System.out.println(num);
+//        System.out.println(double.MAX_VALUE);
+//        System.out.println(Long.MAX_VALUE);
+//        int myFavNum2=12;
+//        System.out.print(myFavNum2);
     }
 
 }

@@ -26,8 +26,14 @@ public class pushups {
 //       String firstName = scanner.next();
 //        System.out.println("What is your last name?");
 //        String lastName = scanner.next();
+
+      int x = 5;
+                         System.out.println(x > 2 ? x < 4 ? 10 : 8 : 7);
+                     }
 //        System.out.format("You entered: %s %s,",firstName,lastName);
+    // shift option to move highlighted code up and down
+
+ }
 
 
-    }
-}
+

@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class MethodsExercises {
     static Scanner sc=new Scanner(System.in);
     public static void main(String[] args) {
@@ -7,7 +8,6 @@ public class MethodsExercises {
 //        System.out.println(subtract(5,10));
 //        System.out.println(multi(5,10));
 //        System.out.println(divide(10,5));
-//        System.out.println(module(11,2));
 ////        ----------------problem 2------------------------
         System.out.print("Enter a number between 1 and 100:");
         int userIn = doInt(1, 100);
@@ -15,9 +15,12 @@ public class MethodsExercises {
 
 
 //----------problem 3------------------
+       System.out.print("Enter a number between 1 and 100:");
+
         doFactorial();
     }
-//-----------------problem 1---------------------------------
+
+    //-----------------problem 1---------------------------------
 //    public static String add(double num1, double num2){
 //        double sum =  num1 +num2;
 //        return "Function complete!" + sum;
@@ -72,10 +75,8 @@ public class MethodsExercises {
 
 
     public static void doFactorial(){
-        Scanner sc=new Scanner(System.in);
             boolean userCont =true;
             do {
-                System.out.print("Enter a number between 1 and 100:");
                 int userInput = doInt(1, 100);
                 long factorial=1;
                 System.out.println("You have entered" + userInput);
