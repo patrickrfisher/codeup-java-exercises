@@ -14,7 +14,9 @@ public class Person{
         person2.setName("Jane");
         System.out.println(person1.getName());
         System.out.println(person2.getName());
-        }
+        System.out.println(p.getName());
+
+    }
 
     private String name;
 //this is a getter for getting the name
