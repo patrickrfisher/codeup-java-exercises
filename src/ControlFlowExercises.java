@@ -1,6 +1,40 @@
 import java.util.Scanner;
-public class ControlFlowExercises {
+public class  ControlFlowExercises {
+  static  Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
+        fizzBuzz();
+
+
+//for(long i=2;i<100000;i=(long) Math.pow(i,2)){
+//    System.out.println(i);
+//}}
+    }
+    public static void fizzBuzz(){
+        System.out.println("Enter a number between 1-100");
+        int input=sc.nextInt();
+        for(int i=1;i<=input;i++) {
+            if (i % 15 == 0)
+                System.out.println("FizzBuzz");
+            else if (i % 5 == 0)
+                System.out.println("Fizz");
+            else if (i % 3 == 0)
+                System.out.println("Buzz");
+            else
+                System.out.println(i);
+        }
+            }
+
+
+
+}
+
+
+
+
+
+
+
 
 //        int base = 5
 //        System.out.println("Continue? [y/n]");
@@ -53,7 +87,6 @@ public class ControlFlowExercises {
 //            else if (i%5==0) System.out.println("Buzz");
 //            else System.out.println(i);
 //        }
-        Scanner sc = new Scanner(System.in);
 
 //        System.out.print("What number would you like to go up to?");
 //
@@ -79,7 +112,7 @@ public class ControlFlowExercises {
 //    if(!answer.equalsIgnoreCase(anotherString:"y"))
 //        confirm=false;
 
-    }}
+
 
 
 
