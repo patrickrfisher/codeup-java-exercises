@@ -17,7 +17,7 @@ public class HelloWorld {
         System.out.println(y);
   int p=4;
       p+=5;
-        System.out.println(p);
+
 //        byte myFavoriteNumber = 15;
 //        System.out.println(myFavoriteNumber);
 //

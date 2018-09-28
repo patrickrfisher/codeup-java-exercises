@@ -26,10 +26,10 @@ public class Input {
         try {
             return Integer.valueOf(input);
         } catch (NumberFormatException e) {
-            System.out.println("Your input was not an integer");
+            System.out.println("Your input was not an integer "+e.getMessage());
             System.out.println("Please enter a integer");
-            return scanner.nextInt();
-        }
+            input=getString();
+        } return Integer.parseInt(input);
     }
 
     public double getDouble() {
