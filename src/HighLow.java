@@ -10,13 +10,12 @@ public class HighLow {
         int g=sc.getInt();
         System.out.println("Enter a number between 1-100 ");
 
-        for(int i =g;i>=0;i--) {
-            if(i == 1) {
+        for(int i =g;i>=0;i--)
+            if (i == 1) {
                 System.out.println("Enter a number:");
                 int userNum = sc.getInt();
-                if (userNum < number) {
-                    System.out.println("Higher" + "\n" + "You have " + i + " guess");
-                } else if (userNum > number) {
+                if (userNum < number) System.out.println("Higher" + "\n" + "You have " + i + " guess");
+                else if (userNum > number) {
                     System.out.println("Lower" + "\n" + "You have " + i + " guess");
                 } else {
                     System.out.println("GOOD GUESS!");
@@ -34,7 +33,6 @@ public class HighLow {
                     System.exit(0);
                 }
             }
-        }
 
 
         System.out.println("You lose");
